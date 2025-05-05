@@ -15,10 +15,10 @@ Your aim is to run ~particles.py~ inside this repo.
 
 You need to also write code to find the variables below:
 - maximum displacement, add ~max_disp = np.max(np.abs(new_positions[:,1] - old_positions[:,1]))~
-- minimum displacement, add ~max_min = np.min(np.abs(new_positions[:,1] - old_positions[:,1]))~
+- minimum displacement, add ~min_disp = np.min(np.abs(new_positions[:,1] - old_positions[:,1]))~
 - average displacement, add ~avg_disp = np.mean(np.abs(new_positions[:,1] - old_positions[:,1]))~
 
 After you added the code and you are sure that it is working,
 - add (stage) your code file: ~git add particles.py~
-- commit the changes: ~git -m "add three variables"~
+- commit the changes: ~git commit -m "add three variables"~
 - push: ~git push~
