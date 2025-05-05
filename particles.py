@@ -14,9 +14,6 @@ old_positions = np.copy(positions)
 
 # simulate forces, velocities, and positions for 100 time steps
 for step in range(100):
-    # calculate force (just gravity in this simple case)
-    forces = np.array([[g[0] * masses, g[1] * masses]]) # N
-
     # update velocities using dv = g*dt
     velocities += g * dt # m/s
 
